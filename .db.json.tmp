@@ -1,0 +1,69 @@
+{
+  "ListingCreated": [
+    {
+      "id": "log_cf1bb4b4",
+      "evtName": "ListingCreated",
+      "data": {
+        "nftAddress": "0x38Db61983fb2A5853e09466067333EFf5A04A04F",
+        "tokenId": "1",
+        "seller": "0x0fB2527DdBDD129AE9D45D18440760dEBDcaEAD9",
+        "price": "1200000000000000000",
+        "startTimestamp": "1678817952",
+        "endTimestamp": "1679681952"
+      },
+      "blockNumber": 3092295
+    },
+    {
+      "id": "log_c11e6d2f",
+      "evtName": "ListingCreated",
+      "data": {
+        "nftAddress": "0x38Db61983fb2A5853e09466067333EFf5A04A04F",
+        "tokenId": "2",
+        "seller": "0x0fB2527DdBDD129AE9D45D18440760dEBDcaEAD9",
+        "price": "1800000000000000000",
+        "startTimestamp": "1678817952",
+        "endTimestamp": "1679681952"
+      },
+      "blockNumber": 3092301
+    },
+    {
+      "id": "log_2d116484",
+      "evtName": "ListingCreated",
+      "data": {
+        "nftAddress": "0x38Db61983fb2A5853e09466067333EFf5A04A04F",
+        "tokenId": "3",
+        "seller": "0x0fB2527DdBDD129AE9D45D18440760dEBDcaEAD9",
+        "price": "2500000000000000000",
+        "startTimestamp": "1678817952",
+        "endTimestamp": "1679681952"
+      },
+      "blockNumber": 3092308
+    },
+    {
+      "id": "log_898f1cfe",
+      "evtName": "ListingCreated",
+      "data": {
+        "nftAddress": "0x38Db61983fb2A5853e09466067333EFf5A04A04F",
+        "tokenId": "3",
+        "seller": "0x0fB2527DdBDD129AE9D45D18440760dEBDcaEAD9",
+        "price": "2500000000000000000",
+        "startTimestamp": "1678817952",
+        "endTimestamp": "1679681952"
+      },
+      "blockNumber": 3092323
+    },
+    {
+      "id": "log_d24aa7ae",
+      "evtName": "ListingCreated",
+      "data": {
+        "nftAddress": "0x38Db61983fb2A5853e09466067333EFf5A04A04F",
+        "tokenId": "3",
+        "seller": "0x0fB2527DdBDD129AE9D45D18440760dEBDcaEAD9",
+        "price": "1000000000000000",
+        "startTimestamp": "1678817952",
+        "endTimestamp": "1679681952"
+      },
+      "blockNumber": 3096963
+    }
+  ]
+}
