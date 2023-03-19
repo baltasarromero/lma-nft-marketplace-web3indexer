@@ -1,6 +1,6 @@
-# Hardhat node event indexer
-A simple tool for indexing solidity events within the development Hardhat node.
-This app will listen to every event in the blockchain (past and future) and store only the selected ones (by schema definition) in a lightweight database. 
+# Web3 node js event indexer
+A simple tool for indexing solidity events.
+This app will listen to every event in the blockchain (past and future) and store only the selected ones (by schema definition) in a database. 
 Users can then query the indexed events by calling a simple REST API.
 
 ## How to use
@@ -10,8 +10,8 @@ yarn install
 ```
 
 2. Update tool settings in config.js file
-* providerUrl: Hardhat node HTTP url (default: http://127.0.0.1:8545)
-* connectionTimeout: Hardhat node connection timeout (default: 20000ms)
+* providerUrl: Can be hardhat local, sepolia, goerli, etc (default: http://127.0.0.1:8545)
+* connectionTimeout: (default: 20000ms)
 * schema: a JSON file that defines the events (and attributes) to be indexed by the app
 ```
 {
@@ -45,7 +45,7 @@ Note: attribute types are not currently used, but they must be defined in schema
 * contractAddress: address of the contract to listen events from
 * contractAbi: abi of the contract to listen events from
 
-3. Make sure that your Hardhat node is running
+3. If working with local hardhat node make sure that your Hardhat node is running. When working with remote (main or test) networks this step is not required.
 ```
 yarn hardhat node
 ```
